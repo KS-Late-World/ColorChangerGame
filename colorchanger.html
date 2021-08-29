@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://c1.wallpaperflare.com/preview/162/139/818/wood-texture-white-background.jpg) ;
+        }
+        .flex-container{
+            display: flex;
+            height: 200px;
+            width: 700px;
+            background-color: darkslategray;
+            flex-wrap: nowrap;
+        }
+        .box{
+            background-color: cadetblue;
+            margin: 10px 10px 10px 10px;
+            height: 160px;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .box:hover{
+    background-color: teal;
+       } 
+       .container{
+           height: 500px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       h1{
+           color: lightseagreen;
+           text-align: center;
+           margin-bottom: 5px;
+       }
+       #box1,#box2,#box3,#box4,#box5,#box6{
+           text-align: center;
+           font: italic;
+           color: white;
+       }
+    </style>
+</head>
+<body>
+    <h1>The Color Changer</h1>
+    <div class="container">
+        <div class="flex-container">
+         <div class="box" id="box1">
+          Hover Over Me! <br> I Will Change My Color   </div>
+         <div class="box" id="box2">
+            Hover Over Me! <br> I Will Change My Color 
+         </div>
+         <div class="box" id="box3">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+         <div class="box" id="box4">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+         <div class="box" id="box5">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+         <div class="box" id="box6">
+            Hover Over Me! <br> I Will Change My Color
+         </div>
+        </div>
+    </div>
+</body>
+</html>
